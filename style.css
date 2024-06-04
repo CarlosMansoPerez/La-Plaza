@@ -1,0 +1,225 @@
+#menu-movil{
+    display: none;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+#sect1 {
+    background-image: url("./img/Bocadillo\ en\ Cafeteria\ La\ Plaza\ Marbella.webp");
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    padding-left: 10%;
+    width: 100%;
+    min-height: 100vh;
+    background-position: 0px -1000px;
+    background-repeat: no-repeat;
+  }
+  #carta {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .letter-spacing{
+    letter-spacing: 0.2rem;
+  }
+  .btn-black{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.408);
+    border: 5px solid black;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.3s;
+  }
+  .btn-black:hover{
+    background-color: rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  .btn-white{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    transition: 0.3s;
+
+  }
+  .btn-white:hover{
+    background-color: rgb(0, 0, 0);
+    border: 5px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+  }
+*{
+    scroll-behavior: smooth;
+}
+body{
+    scroll-snap-type: y mandatory;
+    scroll-padding: 50px; 
+}
+#landing{
+    background-image: url("./img/mercedes-background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+}
+#inicio{
+    background-image: url("./img/patron\ ladrillos.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#nosotros{
+    background-image: url("./img/patron\ ladrillos.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+#ubicacion{
+    background-image: url("./img/patron\ ladrillos.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+#contacto {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .bg-ladrillo{
+    background-image: url("./img/patron\ ladrillos.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.shadow-golden{
+    text-shadow: 1px 1px 1px rgb(229, 206, 0);
+}
+.bg-autolux{
+    background-color: #1f211e;
+}
+
+/* FONTS */
+.font-title {
+    font-family: "Karantina", system-ui;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.font-title-bold {
+    font-family: "Karantina", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.font-text {
+  font-family: "Akshar", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.font-text-bold {
+    font-family: "Akshar", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+/*  */
+
+.text-nav{
+    font-size: 0.6rem;
+}
+.bg-card-price{
+    background: rgb(28,27,27);
+    background: linear-gradient(54deg, rgba(28,27,27,1) 35%, rgba(92,95,96,1) 100%);
+}
+.text-shadow-black{
+    text-shadow: 1px 1px 2px black;
+}
+.hover-contact{
+    transition: 1s;
+}
+.hover-contact:hover{
+    width: 70%;
+}
+.text-xxs{
+    font-size: 0.7rem;
+}
+.text-xxxs{
+    font-size: 0.7rem !important;
+}
+.text-tiny{
+    font-size: 0.5rem !important;
+}
+.language{
+    width: 1%;
+    height: 1%;
+}
+.ms-30{
+    margin-inline-start: 8rem;
+}
+.color-checkbox{
+    accent-color: rgb(229, 206, 0);
+}
+
+@media (max-width: 750px) {
+    .text-nav{
+        font-size: 0.8rem;
+        line-height: 2.5rem;
+    }
+    #sect1{
+        height: 100vh;
+        background-position: 0px;
+        background-repeat: no-repeat;
+    }
+    video{
+        height: 100vh !important;
+    }
+    .text-xxxs{
+        font-size: 0.6rem !important;
+    }
+  }
+
+
+  
+@media (min-width: 751px) and (max-width: 1450px) {
+    .text-nav{
+        font-size: 0.8rem;
+        line-height: 2.5rem;
+    }
+    #sect1{
+        height: 100vh;
+        background-position: 0px;
+        background-repeat: no-repeat;
+    }
+    video{
+        height: 100vh !important;
+    }
+  }
