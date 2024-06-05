@@ -192,6 +192,13 @@ body{
     accent-color: rgb(229, 206, 0);
 }
 
+.iubenda-cs-brand-badge{
+    display: none !important;
+}
+.iub__us-widget{
+    display: none !important;
+}
+
 @media (max-width: 750px) {
     .text-nav{
         font-size: 0.8rem;
