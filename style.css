@@ -45,7 +45,7 @@
   .btn-black:hover{
     background-color: rgb(0, 0, 0);
     border: 5px solid rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    color: #FF6B00;
   }
   .btn-white{
     padding-left: 4rem;
@@ -63,7 +63,10 @@
   .btn-white:hover{
     background-color: rgb(0, 0, 0);
     border: 5px solid rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
+    color: #FF6B00;
+  }
+  .text-secondary{
+    color: #FF6B00;
   }
 *{
     scroll-behavior: smooth;
