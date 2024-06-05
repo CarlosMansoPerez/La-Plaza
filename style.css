@@ -188,15 +188,16 @@ body{
 .ms-30{
     margin-inline-start: 8rem;
 }
-.color-checkbox{
-    accent-color: rgb(229, 206, 0);
-}
 
 .iubenda-cs-brand-badge{
     display: none !important;
 }
 .iub__us-widget{
     display: none !important;
+}
+
+#iubenda-cs-banner .iubenda-cs-opt-group button.iubenda-cs-accept-btn, #iubenda-cs-banner .iubenda-cs-opt-group button.iubenda-cs-btn-primary{
+    background-color: #FF6B00 !important;
 }
 
 @media (max-width: 750px) {
