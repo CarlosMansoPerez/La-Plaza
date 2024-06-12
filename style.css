@@ -156,6 +156,10 @@ body{
   }
 /*  */
 
+h3, h4{
+    font-weight: bolder  !important;
+    padding-top: 20px;
+}
 .text-nav{
     font-size: 0.6rem;
 }
