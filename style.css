@@ -3,6 +3,12 @@
     padding-top: 10%;
     padding-bottom: 15%;
 }
+::selection{
+    background: #FF6B00;
+}
+::-moz-selection{
+    background: #FF6B00;
+}
 #sect1 {
     background-image: url("./img/Bocadillo\ en\ Cafeteria\ La\ Plaza\ Marbella.webp");
     background-size: cover;
